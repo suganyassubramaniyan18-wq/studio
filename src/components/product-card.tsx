@@ -38,7 +38,7 @@ export function ProductCard({ product }: ProductCardProps) {
         <CardDescription className="text-base text-muted-foreground">{product.description}</CardDescription>
       </CardContent>
       <CardFooter className="p-6 pt-0 flex justify-between items-center">
-        <p className="font-semibold text-lg">${product.price.toFixed(2)}</p>
+        <p className="font-semibold text-lg">INR {product.price.toFixed(2)}</p>
         <Button variant="secondary">Add to Order</Button>
       </CardFooter>
     </Card>

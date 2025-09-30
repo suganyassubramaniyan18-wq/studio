@@ -6,7 +6,7 @@ import { SiteFooter } from '@/components/layout/site-footer';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'ScoopJoy',
+  title: 'ScoopJoys',
   description: 'Welcome to ScoopJoy, where every scoop is a joy!',
 };
 

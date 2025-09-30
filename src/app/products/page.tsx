@@ -9,7 +9,7 @@ export default function ProductsPage() {
   return (
     <>
       <PageHeader
-        title="Our Flavors"
+        title="Our Flavorsssss"
         description="Explore our delightful collection of handcrafted ice creams. Each flavor is made with love and the finest ingredients."
       />
       <div className="container pb-16 md:pb-24">

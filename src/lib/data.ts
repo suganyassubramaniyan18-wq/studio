@@ -6,28 +6,28 @@ export const products: Product[] = [
     id: "vanilla-bean",
     name: "Classic Vanilla Bean",
     description: "Creamy and rich, made with real vanilla beans for a timeless flavor.",
-    price: 4.50,
+    price: 25,
     imageId: "product-vanilla"
   },
   {
     id: "dutch-chocolate",
     name: "Decadent Dutch Chocolate",
     description: "A deep, intense chocolate flavor that will satisfy any chocoholic's craving.",
-    price: 5.00,
+    price: 35,
     imageId: "product-chocolate"
   },
   {
     id: "strawberry-bliss",
     name: "Strawberry Bliss",
     description: "Packed with sun-ripened strawberries, a sweet and refreshing classic.",
-    price: 4.75,
+    price: 40,
     imageId: "product-strawberry"
   },
   {
     id: "mint-chip-crush",
     name: "Mint Chip Crush",
     description: "Cool mint ice cream loaded with crunchy dark chocolate chips.",
-    price: 5.25,
+    price: 50,
     imageId: "product-mint"
   },
   {
