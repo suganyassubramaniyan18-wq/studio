@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import { PageHeader } from '@/components/page-header';
-import { placeholderImages } from '@/lib/placeholder-images';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function AboutPage() {
-  const aboutImage = placeholderImages.find(p => p.id === 'about-us');
+  const aboutImage = PlaceHolderImages.find(p => p.id === 'about-us');
 
   return (
     <>

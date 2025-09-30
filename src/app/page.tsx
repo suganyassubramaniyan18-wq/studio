@@ -4,13 +4,13 @@ import { ArrowRight } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { products } from "@/lib/data";
-import { placeholderImages } from "@/lib/placeholder-images";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { ProductCard } from "@/components/product-card";
 
 export default function Home() {
-  const heroImage = placeholderImages.find(p => p.id === "hero-1");
+  const heroImage = PlaceHolderImages.find(p => p.id === "hero-1");
   const featuredProducts = products.slice(0, 3);
-  const aboutImage = placeholderImages.find(p => p.id === "about-us");
+  const aboutImage = PlaceHolderImages.find(p => p.id === "about-us");
 
   return (
     <div className="flex flex-col">

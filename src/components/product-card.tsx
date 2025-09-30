@@ -1,6 +1,6 @@
 import Image from "next/image";
 import type { Product } from "@/types";
-import { placeholderImages } from "@/lib/placeholder-images";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 import {
   Card,
   CardContent,
@@ -16,7 +16,7 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product }: ProductCardProps) {
-  const image = placeholderImages.find(p => p.id === product.imageId);
+  const image = PlaceHolderImages.find(p => p.id === product.imageId);
 
   return (
     <Card className="flex flex-col h-full overflow-hidden transition-shadow hover:shadow-lg">

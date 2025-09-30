@@ -1,5 +1,5 @@
 import type { Product } from "@/types";
-import { Award, Birthday, Truck } from "lucide-react";
+import { Award, Cake, Truck } from "lucide-react";
 
 export const products: Product[] = [
   {
@@ -71,7 +71,7 @@ export const services = [
     id: "parties",
     title: "Birthday Parties",
     description: "Host an unforgettable birthday party at our shop! We provide a fun and festive atmosphere, delicious ice cream, and activities for kids of all ages. Contact us to book your celebration.",
-    icon: Birthday
+    icon: Cake
   },
   {
     id: "custom",

@@ -1,10 +1,10 @@
 import { PageHeader } from '@/components/page-header';
 import { FlavorFinder } from '@/components/flavor-finder';
-import { placeholderImages } from '@/lib/placeholder-images';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
 
 export default function FlavorFinderPage() {
-  const bgImage = placeholderImages.find(p => p.id === 'flavor-finder-bg');
+  const bgImage = PlaceHolderImages.find(p => p.id === 'flavor-finder-bg');
 
   return (
     <div className="relative">

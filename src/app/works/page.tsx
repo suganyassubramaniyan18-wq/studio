@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import { PageHeader } from '@/components/page-header';
 import { galleryImageIds } from '@/lib/data';
-import { placeholderImages } from '@/lib/placeholder-images';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function WorksPage() {
   const galleryImages = galleryImageIds.map(id => 
-    placeholderImages.find(p => p.id === id)
+    PlaceHolderImages.find(p => p.id === id)
   ).filter(Boolean);
 
   return (
