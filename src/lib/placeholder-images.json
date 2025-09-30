@@ -1,3 +1,118 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A bright and cheerful interior of an ice cream shop.",
+      "imageUrl": "https://images.unsplash.com/photo-1569429379101-35f2598ece66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpY2UlMjBjcmVhbSUyMHNob3B8ZW58MHx8fHwxNzU5MjQ4NTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ice cream shop"
+    },
+    {
+      "id": "about-us",
+      "description": "A person holding a colorful ice cream cone.",
+      "imageUrl": "https://images.unsplash.com/photo-1614014077943-840960ce6694?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aWNlJTIwY3JlYW0lMjBjb25lfGVufDB8fHx8MTc1OTI0ODU0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ice cream cone"
+    },
+    {
+      "id": "product-vanilla",
+      "description": "A scoop of classic vanilla bean ice cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1564633193351-8bdd3a70bcf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx2YW5pbGxhJTIwaWNlY3JlYW18ZW58MHx8fHwxNzU5MjI2NTc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vanilla icecream"
+    },
+    {
+      "id": "product-chocolate",
+      "description": "A rich, dark chocolate ice cream scoop.",
+      "imageUrl": "https://images.unsplash.com/photo-1623413514881-76f141436d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaG9jb2xhdGUlMjBpY2VjcmVhbXxlbnwwfHx8fDE3NTkxNzkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate icecream"
+    },
+    {
+      "id": "product-strawberry",
+      "description": "A scoop of fresh strawberry ice cream with fruit chunks.",
+      "imageUrl": "https://images.unsplash.com/photo-1681768986543-4f5ded080dc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdHJhd2JlcnJ5JTIwaWNlY3JlYW18ZW58MHx8fHwxNzU5MjQ4NTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "strawberry icecream"
+    },
+    {
+      "id": "product-mint",
+      "description": "A scoop of mint chocolate chip ice cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1541950747932-b59b50dcc0d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtaW50JTIwaWNlY3JlYW18ZW58MHx8fHwxNzU5MjQ4NTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mint icecream"
+    },
+    {
+      "id": "product-pistachio",
+      "description": "A scoop of nutty pistachio ice cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1581098721508-b9c242bb2e1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwaXN0YWNoaW8lMjBpY2VjcmVhbXxlbnwwfHx8fDE3NTkyNDg1NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pistachio icecream"
+    },
+    {
+      "id": "product-coffee",
+      "description": "A scoop of creamy coffee-flavored ice cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1665676015273-0e194c3e1e69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2ZmZWUlMjBpY2VjcmVhbXxlbnwwfHx8fDE3NTkyNDg1NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee icecream"
+    },
+    {
+      "id": "product-ube",
+      "description": "A scoop of vibrant purple ube ice cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1727947417960-cb361b15dc71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx1YmUlMjBpY2VjcmVhbXxlbnwwfHx8fDE3NTkyNDg1NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ube icecream"
+    },
+    {
+      "id": "product-mango",
+      "description": "A scoop of tropical mango sorbet.",
+      "imageUrl": "https://images.unsplash.com/photo-1644204010805-90a62ab0bdc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5nbyUyMHNvcmJldHxlbnwwfHx8fDE3NTkyNDg1NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango sorbet"
+    },
+    {
+      "id": "service-catering",
+      "description": "An ice cream catering setup at an event.",
+      "imageUrl": "https://images.unsplash.com/photo-1648915423392-a810c3969538?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aWNlJTIwY3JlYW0lMjBjYXRlcmluZ3xlbnwwfHx8fDE3NTkyNDg1NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ice cream catering"
+    },
+    {
+      "id": "service-events",
+      "description": "Children enjoying ice cream at a birthday party.",
+      "imageUrl": "https://images.unsplash.com/photo-1556125574-d7f27ec36a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiaXJ0aGRheSUyMHBhcnR5fGVufDB8fHx8MTc1OTEyODQyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "birthday party"
+    },
+    {
+      "id": "gallery-1",
+      "description": "A beautifully crafted ice cream sundae.",
+      "imageUrl": "https://images.unsplash.com/photo-1541996275318-4890e83660a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpY2UlMjBjcmVhbSUyMHN1bmRhZXxlbnwwfHx8fDE3NTkyNDg1NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ice cream sundae"
+    },
+    {
+      "id": "gallery-2",
+      "description": "A variety of colorful ice cream scoops in a row.",
+      "imageUrl": "https://images.unsplash.com/photo-1603816886392-25f1d28406d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpY2UlMjBjcmVhbSUyMHNjb29wc3xlbnwwfHx8fDE3NTkyNDg1NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ice cream scoops"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A custom ice cream cake for a celebration.",
+      "imageUrl": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpY2UlMjBjcmVhbSUyMGNha2V8ZW58MHx8fHwxNzU5MjQ4NTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ice cream cake"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A person scooping ice cream from a large tub.",
+      "imageUrl": "https://images.unsplash.com/photo-1752962638419-b35c5fcd29ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzY29vcGluZyUyMGljZWNyZWFtfGVufDB8fHx8MTc1OTI0ODU0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scooping icecream"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Close-up of three different ice cream cone flavors.",
+      "imageUrl": "https://images.unsplash.com/photo-1710651453467-6a6fc5008b37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpY2UlMjBjcmVhbSUyMGNvbmVzfGVufDB8fHx8MTc1OTI0ODU0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ice cream cones"
+    },
+    {
+      "id": "gallery-6",
+      "description": "A banana split with all the toppings.",
+      "imageUrl": "https://images.unsplash.com/photo-1633981806729-973c239476c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiYW5hbmElMjBzcGxpdHxlbnwwfHx8fDE3NTkyNDg1NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banana split"
+    },
+    {
+      "id": "flavor-finder-bg",
+      "description": "Abstract pastel background with ice cream cone patterns.",
+      "imageUrl": "https://images.unsplash.com/photo-1684139517679-032b7213ad2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzU5MjEwODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract background"
+    }
+  ]
 }
